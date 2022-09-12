@@ -231,7 +231,7 @@ fi
 # toolchain packages are placed. This uses a subdirectory that contains the information
 # about the compiler to allow using different compiler versions.
 export IMPALA_TOOLCHAIN_PACKAGES_HOME=\
-${IMPALA_TOOLCHAIN}/toolchain-packages-gcc${IMPALA_GCC_VERSION}
+${IMPALA_TOOLCHAIN}
 
 export CDP_HADOOP_URL=${CDP_HADOOP_URL-}
 export CDP_HBASE_URL=${CDP_HBASE_URL-}
